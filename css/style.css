@@ -40,6 +40,7 @@ header nav ul li{
 }
 .gridHappier{
     grid-column-start: 1;
+    transition: all 1s;
 }
 .gridLiveat{
     grid-column-start: 2;    
@@ -105,6 +106,34 @@ nav ul a{
 }
 a:hover{
     text-decoration: underline;
+}
+
+
+/* animaciones */
+
+.gridHappier :hover{
+    transform: scale(2);
+    transition: all 1s;
+}
+.gridLiveat :hover{
+    transform: scale(2);
+    transition: all 1s;
+}
+.gridWheredowego :hover{
+    transform: scale(2);
+    transition: all 1s;
+}
+.gridUpnext :hover{
+    transform: scale(2);
+    transition: all 1s;
+}
+.gridDontsmile :hover{
+    transform: scale(2);
+    transition: all 1s;
+}
+
+.footerHome{
+    background-image: linear-gradient(to top, #c5925f, #C8A786);
 }
 
 /* biografi */
