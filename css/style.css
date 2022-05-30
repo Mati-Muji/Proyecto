@@ -1,0 +1,176 @@
+/* home */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    height: 70px;
+    background-color: #cca074;
+}
+header nav{
+    display: flex;
+}
+header nav ul{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header nav ul li{ 
+    display:flex;    
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.gridAlbumes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.gridTitulo{
+   grid-column: 1 / span 3; 
+}
+.gridHappier{
+    grid-column-start: 1;
+}
+.gridLiveat{
+    grid-column-start: 2;    
+}
+.gridWheredowego{
+    grid-column-start: 3;
+}
+.gridUpnext{
+    grid-column-start: 1 / span 2;
+}
+.gridDontsmile{
+    grid-column-start: 3;
+}
+.textoAlbum{
+    color: black;
+}
+
+main img{
+    border: solid 1px black;
+    padding: 5px;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+    margin-left: 100px;
+    display: block;
+    }
+nav ul li{
+    display:  flexbox;
+    margin: 20px;
+    color: black;
+} 
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    color: white;
+    text-align: left;
+}
+#bodyPrincipal, header, nav ul li{
+    color: black;
+}
+main ol{
+    color: black;
+}
+h2{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 3rem;
+    
+}
+ul{
+    color: white;        
+}
+body{  
+    background-color: #C8A786;
+    text-align: center;     
+}
+a{
+    text-decoration: none;
+}
+nav ul a{
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* biografi */
+
+.bodySecundario{
+    background-color: black;
+}
+.headBio, h2{
+    background-color: #C8A786;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 4rem;
+    height: auto;
+    margin: auto;
+}
+p{
+    color: white;
+    text-align: center;
+}
+.subTitulob{
+    color: whitesmoke;
+    font-size: 2.5rem;   
+}
+.imgBio{
+    height: auto;
+    margin: 1rem auto;
+    text-align: center;
+    width: 800px;
+}
+
+/* Tienda */
+
+.tiendaRopa{
+    display: flex;  
+}
+.tiendaRopa ul{
+    display: flex;
+    height: 250px;
+    text-align: center;
+}
+.tiendaRopa ul li{
+    display: flex;
+    align-items: flex-end;   
+}
+
+
+@media screen and (max-width: 480px) {
+    header{
+        flex-direction: column;   
+    }
+    
+}
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
