@@ -1,5 +1,5 @@
 /* home */
-*{
+/* *{
     margin: 0;
     padding: 0;
 }
@@ -24,7 +24,7 @@ header nav ul li{
     display:flex;    
     justify-content: space-between;
     margin: 1rem;
-}
+} */
 
 .gridAlbumes{
     display: grid;
@@ -141,13 +141,14 @@ a:hover{
 .bodySecundario{
     background-color: black;
 }
-.headBio, h2{
-    background-color: #C8A786;
+.headBio h2{
+    background-color: black;
     color: whitesmoke;
     text-align: center;
-    font-size: 4rem;
+    font-size: 6rem;
     height: auto;
     margin: auto;
+    padding: 1px;
 }
 p{
     color: white;
@@ -166,6 +167,10 @@ p{
 
 /* Tienda */
 
+.titulosStore{
+    color: black;
+}
+
 .tiendaRopa{
     display: flex;  
 }
@@ -180,12 +185,43 @@ p{
 }
 
 
-@media screen and (max-width: 480px) {
-    header{
-        flex-direction: column;   
-    }
-    
+/* Bootstrap Index */
+
+.tituloNav{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    color: white;
+    font-size: 50px;
 }
+
+.colorNav{
+    background-color: #cca074;
+}
+
+.cololiNav{
+    color: black;
+    font-size: 18px; 
+}
+
+.box-shadow-menu {
+    position: relative;
+    padding-left: 1.25em;
+  }
+  .box-shadow-menu:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.25em;
+    width: 1em;
+    height: 0.15em;
+    background: black;
+    box-shadow: 
+      0 0.25em 0 0 black,
+      0 0.5em 0 0 black;
+  }
+
+
+
 
 
 
