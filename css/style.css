@@ -3,28 +3,7 @@
     margin: 0;
     padding: 0;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    width: 100%; 
-    height: 70px;
-    background-color: #cca074;
-}
-header nav{
-    display: flex;
-}
-header nav ul{
-    width: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-header nav ul li{ 
-    display:flex;    
-    justify-content: space-between;
-    margin: 1rem;
-} */
+/*  */
 
 .gridAlbumes{
     display: grid;
@@ -184,6 +163,40 @@ p{
     align-items: flex-end;   
 }
 
+/* Footer */
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #c5925f;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: black;
+}
+.pie-pagina .grupo-2{   
+    background-color: #cca074;    
+    text-align: center;
+    color: black;
+}
+
+
+
+
 
 /* Bootstrap Index */
 
@@ -220,6 +233,15 @@ p{
       0 0.5em 0 0 black;
   }
 
+  @media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+    
+  }
 
 
 
