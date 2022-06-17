@@ -1,0 +1,7 @@
+@mixin body ($bf-backgroundcolor){
+    background-color: $bf-backgroundcolor;
+}
+
+body{
+    @include body ($bf-backgroundcolor)
+}

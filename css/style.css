@@ -1,263 +1,267 @@
-/* home */
-/* *{
-    margin: 0;
-    padding: 0;
+.bodySecundario {
+  background-color: black;
 }
-/*  */
-
-.gridAlbumes{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
-    gap: 10px;
-    padding: 15px;
-    justify-content: center;
+.bodySecundario p {
+  color: white;
+  text-align: center;
 }
-
-.gridTitulo{
-   grid-column: 1 / span 3; 
+.bodySecundario .headBio h2 {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 6rem;
+  height: auto;
+  margin: auto;
+  padding: 1px;
 }
-.gridHappier{
-    grid-column-start: 1;
-    transition: all 1s;
+.bodySecundario .subTitulob {
+  color: whitesmoke;
+  font-size: 2.5rem;
 }
-.gridLiveat{
-    grid-column-start: 2;    
-}
-.gridWheredowego{
-    grid-column-start: 3;
-}
-.gridUpnext{
-    grid-column-start: 1 / span 2;
-}
-.gridDontsmile{
-    grid-column-start: 3;
-}
-.textoAlbum{
-    color: black;
+.bodySecundario .imgBio {
+  height: auto;
+  margin: 1rem auto;
+  text-align: center;
+  width: 800px;
 }
 
-main img{
-    border: solid 1px black;
-    padding: 5px;
-    display: inline-block;
-    font-size: 32px;
-    font-family: Arial;
-    margin-left: 100px;
-    display: block;
-    }
-nav ul li{
-    display:  flexbox;
-    margin: 20px;
-    color: black;
-} 
-h1{
-    font-family: 'Dancing Script', cursive;
-    font-weight: 700;
-    color: white;
-    text-align: left;
-}
-#bodyPrincipal, header, nav ul li{
-    color: black;
-}
-main ol{
-    color: black;
-}
-h2{
-    color: black;
-    font-family: 'Dancing Script', cursive;
-    font-weight: 700;
-    font-size: 3rem;
-    
-}
-ul{
-    color: white;        
-}
-body{  
-    background-color: #C8A786;
-    text-align: center;     
-}
-a{
-    text-decoration: none;
-}
-nav ul a{
-    color: black;
-}
-a:hover{
-    text-decoration: underline;
+.gridAlbumes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 10px;
+  padding: 15px;
+  justify-content: center;
 }
 
+.gridTitulo {
+  grid-column: 1/span 3;
+}
+
+.gridHappier {
+  grid-column-start: 1;
+  transition: all 1s;
+}
+
+.gridLiveat {
+  grid-column-start: 2;
+}
+
+.gridWheredowego {
+  grid-column-start: 3;
+}
+
+.gridUpnext {
+  grid-column-start: 1/span 2;
+}
+
+.gridDontsmile {
+  grid-column-start: 3;
+}
+
+.textoAlbum {
+  color: black;
+}
+
+main img {
+  border: solid 1px black;
+  padding: 5px;
+  display: inline-block;
+  font-size: 32px;
+  font-family: Arial;
+  margin-left: 100px;
+  display: block;
+}
+
+nav ul li {
+  display: flexbox;
+  margin: 20px;
+  color: black;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  color: white;
+  text-align: left;
+}
+
+#bodyPrincipal, header, nav ul li {
+  color: black;
+}
+
+main ol {
+  color: black;
+}
+
+h2 {
+  color: black;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+ul {
+  color: white;
+}
+
+body {
+  background-color: #C8A786;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 
 /* animaciones */
-
-.gridHappier :hover{
-    transform: scale(2);
-    transition: all 1s;
-}
-.gridLiveat :hover{
-    transform: scale(2);
-    transition: all 1s;
-}
-.gridWheredowego :hover{
-    transform: scale(2);
-    transition: all 1s;
-}
-.gridUpnext :hover{
-    transform: scale(2);
-    transition: all 1s;
-}
-.gridDontsmile :hover{
-    transform: scale(2);
-    transition: all 1s;
+.gridHappier :hover {
+  transform: scale(2);
+  transition: all 1s;
 }
 
-.footerHome{
-    background-image: linear-gradient(to top, #c5925f, #C8A786);
+.gridLiveat :hover {
+  transform: scale(2);
+  transition: all 1s;
 }
 
-/* biografi */
+.gridWheredowego :hover {
+  transform: scale(2);
+  transition: all 1s;
+}
 
-.bodySecundario{
-    background-color: black;
+.gridUpnext :hover {
+  transform: scale(2);
+  transition: all 1s;
 }
-.headBio h2{
-    background-color: black;
-    color: whitesmoke;
-    text-align: center;
-    font-size: 6rem;
-    height: auto;
-    margin: auto;
-    padding: 1px;
+
+.gridDontsmile :hover {
+  transform: scale(2);
+  transition: all 1s;
 }
-p{
-    color: white;
-    text-align: center;
-}
-.subTitulob{
-    color: whitesmoke;
-    font-size: 2.5rem;   
-}
-.imgBio{
-    height: auto;
-    margin: 1rem auto;
-    text-align: center;
-    width: 800px;
+
+.footerHome {
+  background-image: linear-gradient(to top, #c5925f, #C8A786);
 }
 
 /* Tienda */
-
-.titulosStore{
-    color: black;
+.titulosStore {
+  color: black;
 }
 
-.tiendaRopa{
-    display: flex;  
+.tiendaRopa {
+  display: flex;
 }
-.tiendaRopa ul{
-    display: flex;
-    height: 250px;
-    text-align: center;
+
+.tiendaRopa ul {
+  display: flex;
+  height: 250px;
+  text-align: center;
 }
-.tiendaRopa ul li{
-    display: flex;
-    align-items: flex-end;   
+
+.tiendaRopa ul li {
+  display: flex;
+  align-items: flex-end;
 }
 
 /* Footer */
-.pie-pagina .grupo-1{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    padding: 45px 0px;
-}
-.pie-pagina .grupo-1 .red-social a{
-    display: inline-block;
-    text-decoration: none;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    color: #fff;
-    margin-right: 10px;
-    background-color: #c5925f;
-    text-align: center;
-    transition: all 300ms ease;
-}
-.pie-pagina .grupo-1 .red-social a:hover{
-    color: black;
-}
-.pie-pagina .grupo-2{   
-    background-color: #cca074;    
-    text-align: center;
-    color: black;
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
 }
 
+.pie-pagina .grupo-1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #c5925f;
+  text-align: center;
+  transition: all 300ms ease;
+}
 
+.pie-pagina .grupo-1 .red-social a:hover {
+  color: black;
+}
 
-
+.pie-pagina .grupo-2 {
+  background-color: #cca074;
+  text-align: center;
+  color: black;
+}
 
 /* Bootstrap Index */
-
-.tituloNav{
-    font-family: 'Dancing Script', cursive;
-    font-weight: 900;
-    color: white;
-    font-size: 50px;
+.tituloNav {
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+  color: white;
+  font-size: 50px;
 }
 
-.colorNav{
-    background-color: #cca074;
+.colorNav {
+  background-color: #cca074;
 }
 
-.cololiNav{
-    color: black;
-    font-size: 18px; 
+.cololiNav {
+  color: black;
+  font-size: 18px;
 }
 
 .box-shadow-menu {
-    position: relative;
-    padding-left: 1.25em;
+  position: relative;
+  padding-left: 1.25em;
+}
+
+.box-shadow-menu:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 1em;
+  height: 0.15em;
+  background: black;
+  box-shadow: 0 0.25em 0 0 black, 0 0.5em 0 0 black;
+}
+
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
   }
-  .box-shadow-menu:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0.25em;
-    width: 1em;
-    height: 0.15em;
-    background: black;
-    box-shadow: 
-      0 0.25em 0 0 black,
-      0 0.5em 0 0 black;
-  }
+}
+.tiendaRopa ul li, .tiendaRopa ul {
+  display: flex;
+}
 
-  @media screen and (max-width:800px){
-    .pie-pagina .grupo-1{
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 30px;
-        padding: 35px 0px;
-    }
-    
-  }
+.tiendaRopa ul {
+  height: 250px;
+  text-align: center;
+}
 
+.tiendaRopa ul li {
+  align-items: flex-end;
+}
 
+body {
+  background-color: #C8A786;
+}
 
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,32 @@
+.bodySecundario{
+    background-color: $bf-black;
+    p{
+        color: $bf-withe;
+        text-align: center;
+    }
+        .headBio{
+            h2{
+                background-color: $bf-black;
+                color: $bf-whitesmoke;
+                text-align: center;
+                font-size: 6rem;
+                height: auto;
+                margin: auto;
+                padding: 1px;
+            }
+
+        }
+            .subTitulob{
+                color: $bf-whitesmoke;
+                font-size: 2.5rem;   
+            }
+            .imgBio{
+                height: auto;
+                margin: 1rem auto;
+                text-align: center;
+                width: 800px;
+            }
+                
+ 
+}
+
