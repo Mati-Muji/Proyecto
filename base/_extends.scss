@@ -1,0 +1,13 @@
+%tienda{
+    display: flex;
+}
+.tiendaRopa ul{
+    height: 250px;
+    text-align: center;
+    @extend %tienda;
+}
+.tiendaRopa ul li {
+    align-items: flex-end;
+    @extend %tienda;
+}
+
